@@ -14,7 +14,7 @@ import os
 import pymysql				        # !!!
 pymysql.version_info = (1, 3, 13, "final", 0)   # !!!
 pymysql.install_as_MySQLdb()                    # !!!
-import pymysql
+
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)

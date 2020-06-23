@@ -7,7 +7,7 @@ from .forms import *
 from django.conf import settings
 from django.http import HttpResponse
 from django.template.loader import render_to_string
-# import weasyprint
+import weasyprint
 
 # 결제를 위한 임포트
 from django.views.generic.base import View
